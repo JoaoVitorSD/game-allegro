@@ -1001,7 +1001,7 @@ int main(){
 			x = direcao(heroi,x,u);
 			al_draw_bitmap(hero[x], heroi.x, heroi.y, 0);
 			u++;
-			draw_monstro(monstro);
+			// draw_monstro(monstro);
 			if(chegouObjetivo(heroi,castle_largura,castle_altura)){
 				if(heroi.score>record){
 					recorde = fopen("record.txt","w");
